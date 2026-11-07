@@ -12,8 +12,6 @@ jobs:
         with:
           distribution: 'temurin'
           java-version: '17'
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
       - run: npm install
       - run: npx expo prebuild --platform android --clean
       - run: cd android && chmod +x gradlew && ./gradlew assembleRelease
