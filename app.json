@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "القرآن الكريم - TANZIL",
+    "slug": "quran-karim",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "quran-karim",
+    "icon": "./assets/icon.png",
+    "android": {
+      "package": "com.mamadou.qurankarim",
+      "versionCode": 1
+    }
+  }
+}
